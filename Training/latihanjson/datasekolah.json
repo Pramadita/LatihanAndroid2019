@@ -1,0 +1,25 @@
+{
+  "namasekolah"   : "SDN V Bandung",
+  "alamat"        : "Jalan Banteng no. 5",
+  "dataguru"      : [
+    {   "id":1,
+      "nama":"Agus",
+      "matapelajaran":"PPKN"
+    },
+    {
+      "id":2,
+      "nama":"Elly",
+      "matapelajaran":"Matematika"
+    },
+    {
+      "id":3,
+      "nama":"Amir",
+      "matapelajaran":"PJOK"
+    }
+  ],
+  "kepalasekolah" : {
+    "sekarang":"Dadang S.pd",
+    "sebelum" : ["Drs. Hasan","Dra. Ani","Imron S.pd","Drs. Karia"]
+  }
+
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1052323675584",
+    "firebase_url": "https://kurbandomba-2b50b.firebaseio.com",
+    "project_id": "kurbandomba-2b50b",
+    "storage_bucket": "kurbandomba-2b50b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052323675584:android:ba591b607ed5319c665c25",
+        "android_client_info": {
+          "package_name": "com.dita.kurbandomba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052323675584-0f3v16d0t4vt9pf5alivs8gg1dpd8j10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dita.kurbandomba",
+            "certificate_hash": "2ef1d770ad6adb2d3a058b754976c676b27a564d"
+          }
+        },
+        {
+          "client_id": "1052323675584-lpu6l27p7akq94pkefou8s7iu1i80fvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpQGcRkFdlXeX7zUqRz3GgpPG6BFz2pic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052323675584-lpu6l27p7akq94pkefou8s7iu1i80fvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LogIn</string>
+    <string name="minimum_password">Password telalu pendek, masukkan minimal 5 karakter</string>
+    <string name="auth_failed">Autentifikasi gagal, cek email dan password anda</string>
+</resources>

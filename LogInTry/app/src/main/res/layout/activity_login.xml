@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/no_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="+62"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:hint="Masukkan Nomor Telepon"
+        android:textAlignment="center"
+        android:inputType="phone"
+        android:background="@drawable/round"
+       />
+    </LinearLayout>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:background="@drawable/roundbtn"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp"
+        android:paddingBottom="10dp"
+        android:text="Masukkan Kode jika tidak masuk secara otomatis"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+    <EditText
+        android:id="@+id/setVertifi"
+        android:layout_width="275dp"
+        android:layout_height="45dp"
+        android:hint="Masukkan 6 Digit Kode Verif"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:maxLength="6"
+        android:background="@drawable/round"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+    <Button
+        android:id="@+id/verifi"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="verif"
+        android:background="@drawable/roundbtn"
+        android:textColor="@color/White"
+       />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resend"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="resend"
+        android:background="@drawable/roundbtn"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum Punya Akun ?"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Daftar Akun"
+        android:id="@+id/Daftar"
+        android:textSize="18sp"
+        android:textColor="@color/Blue"
+        android:background="@drawable/blank"/>
+</LinearLayout>

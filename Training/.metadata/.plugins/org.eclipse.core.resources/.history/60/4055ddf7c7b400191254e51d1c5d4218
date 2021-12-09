@@ -1,0 +1,16 @@
+package train;
+
+public class Train1 {
+
+	public static void main(String[] args) 
+	{
+		String [] group = {"Roni", "Yogi", "Ali", "Hanafi", "Fiki", "Slamet"};
+		System.out.println("Daftar Kelompok :");
+		for (int i =0; i<group.length; i++)
+		{
+			System.out.println(group[i]);
+		}
+
+	}
+
+}

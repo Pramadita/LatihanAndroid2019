@@ -1,0 +1,13 @@
+{
+	"namasekolah"	: "SDN V Bandung",
+	"alamat"		: "Jl.Banteng no.5",
+	"dataguru"		: [
+						{"id" : 1, "nama" : "Agus", "mapel" : "ppkn",},
+						{"id" : 2, "nama" : "Elly", "mapel" : "mtk"},
+						{"id" : 3, "nama" : "Adi", "mapel" : "seni"}
+					  ],
+					  "KepalaSekolah" : {
+											"sekarang"	: "Dadang S.pd",
+											"sebelum"	: [ "Dra.Ani", "Imron S.pd", "Drs.Karia"],
+										}
+}

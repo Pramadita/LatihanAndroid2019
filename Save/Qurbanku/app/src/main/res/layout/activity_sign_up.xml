@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.satella.coffeeapps.SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR AKUN"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:paddingBottom="35dp"/>
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editbg"
+        android:fontFamily="@font/gothic"
+        android:hint="Masukkan Email"
+        android:padding="5dp" />
+
+    <EditText
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:id="@+id/sandi1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editbg"
+        android:fontFamily="@font/gothic"
+        android:hint="Masukkan Sandi"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/masukbuat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/red"
+        android:fontFamily="@font/gothic"
+        android:padding="10dp"
+        android:text="s i g n   u p"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya Akun ?"
+        android:textColor="@color/black"
+        android:paddingTop="18dp"/>
+
+    <TextView
+        android:id="@+id/MasukAkun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textColor="@color/black"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/ResetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:paddingTop="40dp"
+        android:text="Lupa Password ?"
+        android:textColor="@color/black" />
+
+</LinearLayout>

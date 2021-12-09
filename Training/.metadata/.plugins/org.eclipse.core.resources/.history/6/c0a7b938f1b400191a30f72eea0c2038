@@ -1,0 +1,8 @@
+package train;
+
+public class Person1 
+{
+	String fname = "John";
+	String lname = "Doe";
+	int age = 24;
+}

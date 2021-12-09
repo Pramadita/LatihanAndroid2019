@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QURBAN - KU</string>
+    <string name="home">Market</string>
+    <string name="about">About</string>
+    <string name="Jenis">Name content</string>
+    <string name="Harga">Harga</string>
+    <string name="price">Price</string>
+    <string name="desc">Deskripsi</string>
+    <string name="Id_hewan">Id Hewan</string>
+    <string name="flag">Flag</string>
+    <string name="name">Q U R B A N - K U</string>
+    <string name="gmail">pramaditasiede@gmail.com</string>
+    <string name="version">v. 1.0.1</string>
+    <string name="status">Status</string>
+    <string name="minimum_password">Password telalu pendek, masukkan minimal 5 karakter</string>
+    <string name="auth_failed">Autentifikasi gagal, cek email dan password anda</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "536482972145",
+    "firebase_url": "https://logfirebaseproject-f2b7e.firebaseio.com",
+    "project_id": "logfirebaseproject-f2b7e",
+    "storage_bucket": "logfirebaseproject-f2b7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536482972145:android:c4ed21c23184123d",
+        "android_client_info": {
+          "package_name": "com.dita.log"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536482972145-pp5kpc0iv6plioaniqfuudt2caq2i163.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dita.log",
+            "certificate_hash": "2ef1d770ad6adb2d3a058b754976c676b27a564d"
+          }
+        },
+        {
+          "client_id": "536482972145-nns26og5o9apjlhv5osqk16kqj17nal4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6lGJzEW9daiZ16-waZEc3d4ET9DeAV0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536482972145-nns26og5o9apjlhv5osqk16kqj17nal4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

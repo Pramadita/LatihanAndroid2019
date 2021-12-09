@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:background="@drawable/round"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/Sandi"
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:hint="Sandi"
+            android:textAlignment="center"
+            android:background="@drawable/round" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/masuk"
+        android:layout_width="275dp"
+        android:layout_height="40dp"
+        android:background="@drawable/roundbtn"
+        android:text="Masuk"
+        android:textAlignment="center"
+        android:textColor="@color/White" />
+    <Button
+        android:id="@+id/buatakun"
+        android:layout_width="275dp"
+        android:layout_height="40dp"
+        android:text="Buat Akun"
+        android:textColor="@color/Blue"
+        android:background="@drawable/blank"/>
+
+</LinearLayout>

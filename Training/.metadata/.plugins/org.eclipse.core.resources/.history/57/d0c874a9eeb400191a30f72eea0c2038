@@ -1,0 +1,15 @@
+package train;
+
+public class person {
+	static void Greeting()
+	{
+		System.out.println("Selamat Datang ");
+		
+	}
+	
+	static void Greeting2()
+	{
+		System.out.println("Sampai bertemu kembali");
+	}
+
+}

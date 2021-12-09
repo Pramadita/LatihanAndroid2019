@@ -1,0 +1,128 @@
+package com.dita.logintry;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class register extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_register);
+    }
+}
+
+package com.dita.logintry;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class register extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_register);
+    }
+}
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="90dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Akun"
+            android:textColor="@color/Black"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/brNamaPg"
+            android:layout_width="325dp"
+            android:layout_height="40dp"
+            android:hint="Nama Pengguna"
+            android:textAlignment="center"
+            android:background="@drawable/round"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/brNoTlp"
+            android:layout_width="325dp"
+            android:layout_height="40dp"
+            android:hint="Nomor Telepon"
+            android:textAlignment="center"
+            android:background="@drawable/round"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/Kode"
+            android:layout_width="325dp"
+            android:layout_height="40dp"
+            android:hint="Kode Verifikasi"
+            android:textAlignment="center"
+            android:background="@drawable/round" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/roundbtn"
+        android:text="Daftar"
+        android:textAlignment="center"
+        android:textColor="@color/White" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya Akun ?"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:id="@+id/SignIn"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

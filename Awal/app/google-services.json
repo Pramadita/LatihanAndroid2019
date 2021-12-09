@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "237050939739",
+    "firebase_url": "https://awal-674eb.firebaseio.com",
+    "project_id": "awal-674eb",
+    "storage_bucket": "awal-674eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237050939739:android:7ef0af6959a2dc26",
+        "android_client_info": {
+          "package_name": "com.dita.awal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237050939739-hpk3uq15qvtfs115lv6tie1tdjdne4jq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dita.awal",
+            "certificate_hash": "2ef1d770ad6adb2d3a058b754976c676b27a564d"
+          }
+        },
+        {
+          "client_id": "237050939739-pqsprvogl77o1h1fuqdt1n8j4ulh6sts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBobHrRxaPHrAWsL6GeP22uzf87qGRO-1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237050939739-pqsprvogl77o1h1fuqdt1n8j4ulh6sts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

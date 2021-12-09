@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Qurban</string>
+    <string name="home">Menu</string>
+    <string name="about">About</string>
+    <string name="name_content">Harga</string>
+    <string name="jenis">jenis</string>
+    <string name="price">Price</string>
+    <string name="desc">Deskripsi</string>
+    <string name="flag">Flag</string>
+    <string name="name">B U S K O T</string>
+    <string name="gmail">pramaditasiede@gmail.com</string>
+    <string name="version">v. 1.0.0</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "568667984471",
+    "firebase_url": "https://email-3a557.firebaseio.com",
+    "project_id": "email-3a557",
+    "storage_bucket": "email-3a557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568667984471:android:1f828e20ba65512a",
+        "android_client_info": {
+          "package_name": "com.dita.email"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568667984471-kpi98p4i5a7bu09jol2muq5u665c7nd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dita.email",
+            "certificate_hash": "2ef1d770ad6adb2d3a058b754976c676b27a564d"
+          }
+        },
+        {
+          "client_id": "568667984471-3uqfblt3alguf6s3ell0kjmomalbcgd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtp4k6766kNkgRB9KMm0RVyNnISpjpB8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568667984471-3uqfblt3alguf6s3ell0kjmomalbcgd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
